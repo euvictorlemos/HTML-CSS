@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="../ex008b/icone-vlc.ico" type="image/x-icon">
+    <title>Vídeos com HTML5</title>
+</head>
+<body>
+    <h1>Videos com hospedagens locais</h1>
+
+        <p>Este vídeo está hospedado no meu próprio servidor, veja:</p>
+
+        <video src="midia/Video750.m4v" width="400" controls></video>
+
+        <p>Este vídeo acima é a maneira mais básica, a forma mais completa para rodar em todos os navegadores você deve usar os <code> &lt;source&gt;</code>  novamente, como abaixo, veja:</p>
+
+        <video width="400" poster="imagens/capa-video.png" controls autoplay loop> 
+
+            <source src="midia/Video750.m4v" type="video/m4v">
+            <source src="midia/Video750.webm" type="video/webm">
+            <source src="midia/video.mp4" type="video/mp4">
+            <p>seu navegador não tem compatibilidade</p>
+
+        </video>
+
+
+        <p>Você pode baixar videos como os vídeos acima usando o site <a href="https://www.pexels.com/pt-br/videos/" target="_blank" rel="external">pexels</a></p>
+
+        <p>Colocar vídeos como os vídeos acima, gera um custo maior para o cliente, pois a hospedagem é interna.</p>
+
+        <!-- Sempre importante lembrar que devemos ter os videos em todos os arquivos --> 
+
+        <h1>Inserindo videos do youtube</h1>
+
+        <p>Caso não queira tanto custo, pegue videos de outras plataformas e incorpore no seu site, veja esse exemplo do youtube:
+
+            <br> <small> (Caso o vídeo seja do youtube, seu cuidado deve ser maior com os direitos autorais)</small>
+        </p>
+
+        <iframe width="400" height="315" src="https://www.youtube.com/embed/MclGIg2qSUk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+        <!--vídeos de m4v são mais aceitos-->
+
+        <p>Nessa de você inserir um vídeo, os vídeos do youtube só servirá se o seu site for livre, se for recurso pago, para assinantes um site recomendado é o <a href="https://vimeo.com/pt-br/upgrade?vcid=33579&utm_medium=cpc&utm_source=google&gclid=Cj0KCQjw06OTBhC_ARIsAAU1yOV12r17LcWZVT80fjbSWl6UIGL-ogxNOqsYpNfaW3mXh10hEPx7Ow8aAuymEALw_wcB&gclsrc=aw.ds" target="_blank" rel="external" >vimeo.com</a>.
+        <br> <small> (O vimeo é muito bom, os vídeos saem em alta qualidade, porém o algoritimo não é tão eficiente como o do YouTube) </small> </p>
+
+        <h1>Inserindo Vídeos do VIMEO</h1>
+
+        <p>Veja um exemplo de vídeo usando a incorporação do VIMEO:</p>
+
+        <p><small>*Dica básica, você pode sempre alterar o tamanho que o video vai ficar mostrando no seu site dentro da tag <code>&lt;width&gt;</code> e alterar o tamanho que você quer que o vídeo apareça* </small></p>
+
+        <iframe src="https://player.vimeo.com/video/703459983?h=cee729d877&color=ffffff&byline=0&portrait=0" width="640" height="360" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+        
+
+        <p></p>
+
+
+    
+        
+</body>
+</html>

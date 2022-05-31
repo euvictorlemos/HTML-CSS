@@ -1,0 +1,73 @@
+@charset "UTF-8"; 
+
+
+/* Seletores Personalizados
+#  = ID
+.  = class
+:  = Pseudo-class
+:: = pseudo-element
+>  = children 
+*/
+
+body {
+    background-color: #E4E6D9;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div:hover {color: #42af56
+}
+
+div > p { 
+    background-color: #253528;
+    display: none;
+    color: #E4E6D9;
+    font-size: 16px;
+}
+
+div:hover > p {
+    display: block;
+}
+
+h1#principal {
+    text-align: center;
+    background-color: #253528;
+    color: #E4E6D9;
+}
+
+h1 {
+    
+    color: #253528;
+
+}
+
+h2 {
+    color: #49654E;
+}
+.basico { 
+    color: #49654E;
+
+}
+.intermediario {
+    color: #49654E;
+
+}
+.avançado {
+    color: #49654E;
+}
+
+a {
+    color: #49684f;
+    text-decoration: none;
+    font-weight: bold;
+}
+a:visited {
+    color: #42af56;
+}
+
+a:hover { 
+    text-decoration: underline;
+    color: #253528;
+}
+
+a:active {
+    color: #2ddb4c;
+}

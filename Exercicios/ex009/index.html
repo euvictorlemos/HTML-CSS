@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-vlc.ico" type="image/x-icon">
+    <title>Listas</title>
+</head>
+<body>
+    <h1>Listas</h1> <hr>
+    <h2>Listas Ordenadas</h2>
+    <p>listas OL são listas de passo a passo e fazemos ela com a tag &lt; OL &gt;para criar o formato de lista e a tag &lt;LI&gt; para identificar cada item da lista, veja exemplo: </p>
+    <p>
+        <ol>
+            <li>item </li> <!--N é necessario fechar o li com /li-->
+            <li>item </li>
+            <li>item </li>
+            <li>item </li>
+        </ol>
+    </p>
+    <p>Você pode mudar as numerações da lista por outras especificações colocando a TAG <code>TYPE</code>  dentro da TAG &lt;ol&gt; veja o exemplo:</p>
+
+    <ol type="A">
+
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+
+    </ol>
+
+    <ol type="i">
+
+        <li>item</li>
+        <li>item</li>
+    </ol>
+
+    <h2>Listas Não Ordenadas</h2>
+
+    <p>Lista não ordenada, são as listas que não necessitam de uma ordem para especificar cada coisa</p>
+    <p>Para fazer uma lista não ordenada basta usar a tag &lt;ul&gt; e depois usar a tag &lt;li&gt; veja o exemplo: </p>
+
+    <ul>
+        <li>item</li>
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <p>Para mudar o formato de disc da lista para outro formato basta escrever type como na lista anterior, veja:</p>
+
+    <ul type="circle">
+
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <ul type="square"> <!-- Disc-Circle-Square -->
+        <li>item</li>
+        <li>item</li>
+    </ul>
+
+    <h2>Misturando Listas</h2>
+
+    <p>Também podemos misturar as listas, veja:</p>
+
+    <!--Usando a Tag start podemos pular as ordens exemplo: 123-567-->
+    <ol>
+        <li>item</li>
+        <li>item</li>
+        <ol type="a">
+            <li>item 2.1</li>
+            <li>item 2.2</li>
+        </ol>
+        <li>item</li>
+        <ul type="disc">
+            <li>item 3.1</li>
+            <ul type="square">
+                <li>bônus</li>
+
+            </ul>
+        </ul>
+        <li>item</li>
+        
+    </ol>
+
+    <h2>Listas de Definição</h2>
+
+    <p>São listas como um dicionário, e para faze-las precisamos por a Tag &lt;DL&gt; a Tag &lt;DT&gt; (o termo/nome) e por último a Tag &lt;DD&gt; (explicaçao ou descrição)  veja os exemplos:</p>
+
+    <dl>
+        <dt>HTML5</dt>
+        <dd>Linguagem de Marcação utilizada para criar conteúdo dos sites</dd>
+
+        <dt>CSS3</dt>
+        <dd>Linguagem de Marcação utilizada para criar estilos de sites</dd>
+
+        <dt>JavaScript</dt>
+        <dd>Linguagemde marcação utilizada para criar interativos de sites</dd>
+        
+    </dl>
+
+
+
+
+
+
+</body>
+</html>

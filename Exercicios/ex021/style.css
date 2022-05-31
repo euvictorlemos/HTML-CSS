@@ -1,0 +1,96 @@
+@charset "UTF-8";
+
+body {
+    background-color: #F8E79F;
+    font-family: Arial, Helvetica, sans-serif;   
+    text-align: justify;
+    margin: 0px;
+}
+header {
+ 
+    background-color: #011C40 ;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.642);
+    border-radius: 8px;
+    
+}
+header > h1 {  
+    text-align: center;
+    color: #F4F4F4;
+    font-size: 2em;
+    text-shadow: 2px 2px 2px #010e1eaa;
+}
+nav { 
+    text-align: center;
+}
+
+nav > a {
+    color: #F8E79F;
+    text-decoration: none;
+    text-align: center;
+    margin-right: 49px;
+    text-shadow: 1px 1px 1px #010e1e;
+   
+}
+
+nav > a:hover {
+    color:#ffde4c;
+    text-decoration: underline;
+}
+
+main {
+    background-color: #F4F4F4;
+    padding: 10px;
+    margin: 10px;
+    box-shadow: 2px 2px 2px #ab9e64;
+    border-radius:  10px;
+}
+
+footer {
+    background-color: black;
+    color: #F8E79F;
+    text-align: center;
+    padding: 5px;
+    margin: 10px 0px;
+}
+
+footer > p { margin: 0px;}
+
+aside {
+    text-align: center;
+}
+
+#youtube {
+    text-align: center;
+}
+
+h1{
+    text-align: center;
+    font-size: 1.8em;
+    
+}
+h2 {
+    text-align: center;
+}
+a {
+    color: black;
+    text-decoration: underline;
+    text-align: center;
+    margin-right: 49px;
+    
+}
+a:hover {
+    text-decoration: underline;
+    color: #024873;
+    
+}
+
+.nome {
+    color: #F8E79F;
+    text-decoration: none;
+}
+.nome:hover {
+    color: #F4F4F4;
+    text-decoration: underline;
+}

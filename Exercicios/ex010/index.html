@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icone-vlc.ico" type="image/x-icon">
+    <title>Links e Âncoras</title>
+</head>
+<body>
+    <h1>Link externo</h1>
+    <p>Você pode acessar minha pregação <a href="https://www.youtube.com/watch?v=RkOFXEHHTaw">clicando aqui</a> </p> 
+<!--HREF é referencia hipertexto/link/ -->
+<p>Na referencia a cima, o link abre na mesma aba, para criar um link que crie uma nova aba  basta usar a tag (target="_blank") e dps a tag (rel="external") logo após a URL como no exemplo abaixo: <!-- A TAG REL INDICA QUAL É A NATUREZA DO DESTINO--> <!-- ‣ next indica que o link é para a próxima parte do documento atual
+     ‣prev indica que o link é para a parte anterior do documento atual
+    ‣author indica que é um link para o site do autor do artigo atual
+    ‣external indica que é um link para outro site que não faz parte do site 
+     --> </p>
+
+<p>"Você pode acessar minha pregação <a href="https://www.youtube.com/watch?v=RkOFXEHHTaw" target="_blank" rel="external" >clicando aqui</a>" </p> 
+
+<p>Caso o site enviado não ue a mesma linguagem de idioma que o seu coloque na frente da URL (hreflang="pt-br")</p>
+
+
+ <h1>Links Internos</h1>
+
+ Esta que voce esta lendo é minha primeira pagina, se quiser pode acessar minha <a href="pag002.html" rel="next">segunda pagina clicando aqui</a>
+
+ <p>Para abrir a minha outra página em uma nova janela <a href="pag002.html" target="_blank" rel="external" > clique aqui</a>. </p>
+
+ <p>Com link interno você não precisa por a URL inteira, basta usar Ctrl+Espaço e selecionar sua página/arquivo. </p>
+
+ <p>Acesse também sua <a href="noticias/pag003.html" target="_blank" rel="external">terceira página</a></p>
+
+ <p>Ou acesse ela <a href="noticias/pag003.html" rel="next">clicando aqui</a></p>
+<!--para voltar de uma pagina que esta em uma sub pasta, para pasta normal basta usar o codigo (../) esses ".." significa voltar a pasta anterior-->
+
+<h1>Links de Downloads</h1>
+
+<ul>
+    <li><a href="Livros/ligação.pdf.pdf" download="Livro em PDF" type="application/pdf" target="_blank" rel="external">Livro em PDF</a></li>
+    <li><a href= "Livros/meulivro.pdf" download="meulivro.pdf" type="aplication/zip">Livro em ZIP</a></li>
+</ul>
+ 
+<p> teste </p>
+
+</body>
+</html>
