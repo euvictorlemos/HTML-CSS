@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Fundo Fixo</title>
     
 </head>
 <style>
     body{
         height: 100vh;
-        background-color: black;
+        /*background-color: black;
         background-image: url('imagens/wallpaper002.jpg');
         background-position: center center;
         background-repeat: no-repeat;
         background-size: cover;
+        background-attachment: fixed;*/
+
+        background-size: cover;
+
+        background: black url(imagens/wallpaper002.jpg) center center no-repeat fixed;
 }
+
+/*SHORTHAND BACKGROUND
+color > image > position > repeat > [Size] > attachmnent*/
 
 main {
         background-color: whitesmoke;
-        width: 400px;
+        max-width: 500px;
         padding: 20px;
         margin: auto;
         border: 1,5px solid rgb(0, 0, 43);
@@ -37,13 +45,12 @@ h1{
 main > p{
     text-align: justify;
     font-family: Arial, Helvetica, sans-serif;
+    
 }
 
-footer{
-    
-    background-color: black;
-    padding: 10px 0px;
+footer {
     text-align: center;
+    background-color: rgb(0, 0, 0);
     color: white;
 }
 
@@ -53,14 +60,13 @@ footer{
         <h1>Teste Imagem de Fundo</h1>
 
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad quas voluptates, eligendi eos accusamus accusantium dolores sed consequatur reprehenderit exercitationem rerum nam voluptate molestiae vel et neque porro reiciendis cupiditate? Lorem ipsum dolor sit amet consectetur adipisicing elit. Commodi consequatur eos, laudantium ab autem repellendus officiis fugit ut iure? Tenetur sunt impedit sapiente eos, exercitationem ipsam vel veniam deleniti delectus! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sint, officiis. Quaerat, ab iste nemo porro recusandae est natus mollitia magnam eligendi, officiis deserunt voluptates voluptatibus facere eaque dolore consectetur illo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum voluptates harum, sit eius amet exercitationem eos error dolore nobis, aliquam aperiam non. Quaerat sed labore reprehenderit quasi ipsum repellat debitis.
-        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi atque quaerat tempora soluta quam sunt hic expedita excepturi quidem assumenda fugiat rem, aliquam, voluptatum odio! Dolorum est eveniet quos neque!
+        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi atque quaerat tempora soluta quam sunt hic expedita excepturi quidem assumenda fugiat rem, aliquam, voluptatum odio! Dolorum est eveniet quos neque! Lorem ipsum dolor sit amet consectetur adipisicing elit. Error reprehenderit id adipisci, inventore ad dolorum nemo temporibus harum facere aspernatur, maiores facilis dolores ea illo aliquid! Totam ratione sint laboriosam.
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corporis, ut. Odio molestiae quia odit molestias, possimus quidem, qui corrupti, non eveniet omnis debitis commodi saepe eius corporis quibusdam dolor. Perferendis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi culpa accusamus tempora vitae quod sunt quibusdam incidunt ullam suscipit. Repudiandae tempora quas voluptatum ullam soluta, maiores quis autem illum eaque. Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore blanditiis ex sapiente quos voluptates hic, incidunt aut quas exercitationem omnis, dolorem veritatis voluptatum perspiciatis fugit excepturi rerum fuga numquam modi? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptas maxime sed illo dolorum dolores impedit. Distinctio accusamus dolorum unde, deserunt, nemo, at molestias delectus quod provident deleniti inventore exercitationem eaque!
         </p>
     </main>
 
     <footer>
-        <p>site criado por, Victor Lemos
-        
-        </p>
+       <p>Desenvolvido por Victor Lemos</p>
     </footer>
 </body>
 </html>
